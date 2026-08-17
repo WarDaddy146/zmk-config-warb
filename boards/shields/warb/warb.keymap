@@ -1,6 +1,3 @@
-// This file was generated from a template. Edit it to match your keyboard.
-// See https://zmk.dev/docs/development/hardware-integration/new-shield for more instructions.
-
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
@@ -10,9 +7,10 @@
 
         default_layer {
             bindings = <
-                &kp Q &kp W &kp E &kp R
-                &kp A &kp S &kp D &kp F
-                &kp LSHFT &kp Z &kp X &kp C
+                &kp Q     &kp W    &kp E     &kp R     &kp T
+                &kp A     &kp S    &kp D     &kp F     &kp G
+                &kp LSHFT &kp Z    &kp X     &kp C     &kp V
+                &kp LCTRL &kp LALT &kp SPACE &kp ENTER &kp BSPC
             >;
         };
     };
