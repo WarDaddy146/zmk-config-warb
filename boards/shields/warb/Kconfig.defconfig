@@ -1,0 +1,6 @@
+if SHIELD_WARB
+
+config ZMK_KEYBOARD_NAME
+    default "warb"
+
+endif # SHIELD_WARB
