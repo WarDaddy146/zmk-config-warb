@@ -1,0 +1,1 @@
+target_sources(app PRIVATE src/mpu_widget.c)
