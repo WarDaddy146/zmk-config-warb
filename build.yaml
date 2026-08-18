@@ -2,4 +2,3 @@
 include:
   - board: nice_nano_v2
     shield: warb
-    snippet: zmk-usb-logging
